@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box{
+    width: auto;
+    height: 500px;
+    margin: auto;
+}
+
+.box h2{
+    color: rgb(94, 107, 201);
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.content{
+    width: 295px;
+    height: 310px;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgb(37 42 49 / 16%), 0px 8px 24px rgb(37 42 49 / 24%);
+    padding: 50px;
+}
+
+.head h2{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-weight: normal;
+    width: auto;
+}
+
+p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    float: left;
+}
+
+a{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    color: rgb(94, 107, 201);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input{
+    width: 280px;
+    height: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.password_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox input{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.checkbox p{
+    font-size: 13px;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(94, 107, 201);
+    border: none;
+    color: white;
+    width: 295px;
+    height: 40px;
+    padding: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+form a{
+    width: 200px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.password_head a{
+    width: 146px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+form{
+    text-align: center;
+}
+
+.foot{
+    width: auto;
+    text-align: center;
+    float: none;
+}
+
+@media (max-width: 425px){
+    .content{
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .box h2{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
